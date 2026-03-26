@@ -1,6 +1,6 @@
 # Current Feature
 
-Dashboard UI Phase 1
+Dashboard UI Phase 2
 
 ## Status
 
@@ -8,19 +8,19 @@ Completed
 
 ## Goals
 
-- ShadCN UI initialization and components
-- ShadCN component installation
-- Dashboard route at /dashboard
-- Main dashboard layout and any global styles
-- Dark mode by default
-- Top bar with search and new item button (display only)
-- Placeholder for sidebar and main area (h2 with "Sidebar" and "Main")
+- Collapsible sidebar
+- Items/types with links to /items/TYPE (eg. items/snippets)
+- Favorite collections
+- Most recent collections
+- User avatar area at the bottom
+- Drawer icon to open/close sidebar
+- Always a drawer on mobile view
 
 ## Notes
 
-- Phase 1 of 3 for the dashboard UI
-- See `context/features/dashboard-phase-1-spec.md` for full spec
-- References: `context/screenshots/dashboard-ui-main.png`, `context/features/dashboard-phase-2-spec.md`, `context/features/dashboard-phase-3-spec.md`
+- Phase 2 of 3 for the dashboard UI
+- See `context/features/dashboard-phase-2-spec.md` for full spec
+- References: `context/screenshots/dashboard-ui-main.png`, `context/screenshots/dashboard-ui-drawer.png`
 
 ## History
 
@@ -30,4 +30,5 @@ Completed
 - Initial setup of Next.js with Tailwind CSS v4 ✅
 - Mock data for dashboard UI ✅
 - Dashboard UI Phase 1 ✅
+- Dashboard UI Phase 2 ✅
 
